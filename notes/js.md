@@ -2,11 +2,9 @@
 id: xdw7n7cpyq6rpq3txs26jaw
 title: JS
 desc: ''
-updated: 1699392568537
+updated: 1699392859662
 created: 1697579582024
 ---
-
-Update content
 
 ## References
 
