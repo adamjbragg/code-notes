@@ -82,6 +82,7 @@ preview:
   automaticallyShowPreview: false
 publishing:
   siteUrl: https://adamjbragg.github.io
+  assetsPrefix: /dendron
   enableFMTitle: true
   enableNoteTitleForLink: true
   enablePrettyRefs: true
