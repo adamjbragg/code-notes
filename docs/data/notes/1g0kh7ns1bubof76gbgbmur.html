@@ -1,0 +1,16 @@
+<h1 id="textcontent">textContent<a aria-hidden="true" class="anchor-heading icon-link" href="#textcontent"></a></h1>
+<p><code>node.textContent</code> returns all the contents of a node including text, but also script and style tags, hidden divs and white space.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>h2</span><span class="token punctuation">></span></span>Hello World<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>h2</span><span class="token punctuation">></span></span>
+</code></pre>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> h2 <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelector</span><span class="token punctuation">(</span><span class="token string">'h2'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+h2<span class="token punctuation">.</span><span class="token property-access">textContent</span><span class="token punctuation">;</span> <span class="token comment">// Hello World</span>
+</code></pre>
+<ul>
+<li><strong>Warning:</strong> Setting textContent on a node removes all of the node's children and replaces them with a single text node with the given string value.</li>
+</ul>
+<h3 id="differences-from-htmlelementinnertext">Differences from <code>HTMLElement.innerText</code><a aria-hidden="true" class="anchor-heading icon-link" href="#differences-from-htmlelementinnertext"></a></h3>
+<ul>
+<li><code>textContent</code> returns every element with in a node, <code>innerText</code> is aware of styling and won't return hidden elements.</li>
+<li><code>innerText</code> triggers a reflow, <code>textContent</code> does not.</li>
+</ul>
+<p>see: <a href="/dendron/notes/clas8n15ht8loe23r9kg5uv">innerText</a></p>

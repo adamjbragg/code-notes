@@ -1,0 +1,17 @@
+<h1 id="insertadjacentelement">insertAdjacentElement<a aria-hidden="true" class="anchor-heading icon-link" href="#insertadjacentelement"></a></h1>
+<p><code>Element.insertAdjacentElement()</code> is a method that inserts an element at a defined position relative to the element invoked from.</p>
+<p><code>insertAdjacentElement(position, element)</code></p>
+<ul>
+<li>there are four positions
+-- <code>beforebegin</code>: before the <code>targetElement</code>
+-- <code>afterbegin</code>: inside the <code>targetElement</code>
+-- <code>beforeend</code>: just inside the <code>targetElement</code>
+-- <code>afterend</code>: after the <code>targetElement</code></li>
+</ul>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> targetEl <span class="token operator">=</span> <span class="token function">documentQuerySelector</span><span class="token punctuation">(</span><span class="token string">'.someClass'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> myEl <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">createElement</span><span class="token punctuation">(</span><span class="token string">'p'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+myEl<span class="token punctuation">.</span><span class="token property-access">innerText</span> <span class="token operator">=</span> <span class="token string">'This is my element'</span><span class="token punctuation">;</span>
+
+targetEl<span class="token punctuation">.</span><span class="token method function property-access">insertAdjacentElement</span><span class="token punctuation">(</span><span class="token string">'afterbegin'</span><span class="token punctuation">,</span> myEl<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>

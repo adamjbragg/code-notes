@@ -1,0 +1,32 @@
+<h1 id="querying">Querying<a aria-hidden="true" class="anchor-heading icon-link" href="#querying"></a></h1>
+<p>In modern JS we use <code>document.querySelector()</code> and <code>document.querySelectorall()</code> to select elements in the dom.</p>
+<h2 id="documentqueryselector"><code>document.querySelector()</code><a aria-hidden="true" class="anchor-heading icon-link" href="#documentqueryselector"></a></h2>
+<p>Returns the <strong>first</strong> element that matches the given selector(s).</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> elByClass <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelector</span><span class="token punctuation">(</span><span class="token string">'.class'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> elById <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelector</span><span class="token punctuation">(</span><span class="token string">'#id'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> elByTag <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelector</span><span class="token punctuation">(</span><span class="token string">'tag'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//('h1')</span>
+<span class="token keyword">const</span> elByAttr <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelector</span><span class="token punctuation">(</span><span class="token string">'[attr]'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//('[data-attr]')</span>
+</code></pre>
+<h2 id="documentqueryselectorall"><code>document.querySelectorAll()</code><a aria-hidden="true" class="anchor-heading icon-link" href="#documentqueryselectorall"></a></h2>
+<p>Returns a <strong>node list</strong> of all elements that match the given selector(s).</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> elByClass <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">'.class'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> elById <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">'#id'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> elByTag <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">'tag'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//('h1')</span>
+<span class="token keyword">const</span> elByAttr <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">'[attr]'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//('[data-attr]')</span>
+</code></pre>
+<h2 id="accessing-the-matches-from-documentqueryselectorall">Accessing the matches from <code>document.querySelectorAll()</code><a aria-hidden="true" class="anchor-heading icon-link" href="#accessing-the-matches-from-documentqueryselectorall"></a></h2>
+<p>Because <code>document.querySelectorAll()</code> returns a nodeList we can access the matches with a forEach loop.</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> elements <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">'.class'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// loop over the element with forEach()</span>
+element<span class="token punctuation">.</span><span class="token method function property-access">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">el</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
+  <span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span>el<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// do something with the element</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p>NodeLists can be converted to Arrays, see: <a href="/dendron/notes/3axcgz2ow6da4tla6d21rhv">nodeList</a> for more information.</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron/notes/gpddgu6chwp3ypqdxhjnaeu">Creating</a></li>
+<li><a href="/dendron/notes/3axcgz2ow6da4tla6d21rhv">nodeList</a></li>
+</ul>

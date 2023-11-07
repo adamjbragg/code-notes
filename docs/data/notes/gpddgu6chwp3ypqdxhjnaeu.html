@@ -1,0 +1,28 @@
+<h1 id="creating">Creating<a aria-hidden="true" class="anchor-heading icon-link" href="#creating"></a></h1>
+<h2 id="selecting">Selecting<a aria-hidden="true" class="anchor-heading icon-link" href="#selecting"></a></h2>
+<p><a href="/dendron/notes/5qcfid200j4oubmr519ikce">Querying</a></p>
+<h2 id="create-a-dom-node">Create a dom node<a aria-hidden="true" class="anchor-heading icon-link" href="#create-a-dom-node"></a></h2>
+<p><a href="/dendron/notes/agrsrmi8nqlf1078ioewaul">createElement</a></p>
+<h2 id="working-with-classes">Working with Classes<a aria-hidden="true" class="anchor-heading icon-link" href="#working-with-classes"></a></h2>
+<p><a href="/dendron/notes/7s6nvh1ynr6yzux6k37yhn9">classList</a></p>
+<h2 id="working-with-attributes">Working with attributes<a aria-hidden="true" class="anchor-heading icon-link" href="#working-with-attributes"></a></h2>
+<h3 id="custom-data-attributes">Custom data attributes<a aria-hidden="true" class="anchor-heading icon-link" href="#custom-data-attributes"></a></h3>
+<ul>
+<li>when setting custom attributes use <code>data-*</code></li>
+<li>set a data attribute value:</li>
+<li>The in operator can check if a given attribute exists: <code>'keyname' in element.dataset</code></li>
+<li>To remove an attribute, you can use the delete operator: <code>delete element.dataset.keyname</code></li>
+</ul>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;</span>p</span> <span class="token attr-name">data-user</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Adam Bragg<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Adam<span class="token tag"><span class="token tag"><span class="token punctuation">&#x3C;/</span>p</span><span class="token punctuation">></span></span>
+</code></pre>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> element <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelector</span><span class="token punctuation">(</span><span class="token string">'p'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+element<span class="token punctuation">.</span><span class="token property-access">dataset</span><span class="token punctuation">.</span><span class="token property-access">user</span><span class="token punctuation">;</span> <span class="token comment">// Adam Bragg</span>
+</code></pre>
+<pre class="language-js"><code class="language-js">element<span class="token punctuation">.</span><span class="token property-access">dataset</span><span class="token punctuation">.</span><span class="token property-access">food</span> <span class="token operator">=</span> <span class="token string">'pizza'</span><span class="token punctuation">;</span> <span class="token comment">// create new attribute and set data attribute</span>
+<span class="token comment">// &#x3C;p data-user="Adam Bragg" data-food="pizza">Adam&#x3C;/p></span>
+</code></pre>
+<h3 id="working-with-attributes-1">Working with attributes<a aria-hidden="true" class="anchor-heading icon-link" href="#working-with-attributes-1"></a></h3>
+<ul>
+<li></li>
+</ul>
+<h2 id="traversing-through-the-dom">Traversing through the DOM<a aria-hidden="true" class="anchor-heading icon-link" href="#traversing-through-the-dom"></a></h2>

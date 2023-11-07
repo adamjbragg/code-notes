@@ -1,0 +1,22 @@
+<h1 id="from">from<a aria-hidden="true" class="anchor-heading icon-link" href="#from"></a></h1>
+<ul>
+<li>Array.from() method is a static method in JavaScript</li>
+<li>it creates a new array instance from an iterable or array-like object</li>
+<li>The iterable or array-like object can be any object that has a length property and can be iterated over using a for…of loop or other iterable method.</li>
+<li>The method returns a <strong>shallow copy of the original object</strong></li>
+<li><strong>any changes made to the original object will not affect the new array instance created by﻿Array.from()</strong></li>
+</ul>
+<pre class="language-js"><code class="language-js"><span class="token comment">// Create an array based on a property of DOM Elements</span>
+
+<span class="token keyword">const</span> images <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">'img'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">// returns a NodeList</span>
+
+<span class="token keyword">const</span> sources <span class="token operator">=</span> <span class="token known-class-name class-name">Array</span><span class="token punctuation">.</span><span class="token keyword module">from</span><span class="token punctuation">(</span>images<span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">image</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> image<span class="token punctuation">.</span><span class="token property-access">src</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> insecureSources <span class="token operator">=</span> sources<span class="token punctuation">.</span><span class="token method function property-access">filter</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">link</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> link<span class="token punctuation">.</span><span class="token method function property-access">startsWith</span><span class="token punctuation">(</span><span class="token string">'http://'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron/notes/3axcgz2ow6da4tla6d21rhv">nodeList</a></li>
+</ul>

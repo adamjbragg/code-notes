@@ -1,0 +1,24 @@
+<h1 id="classlist">classList<a aria-hidden="true" class="anchor-heading icon-link" href="#classlist"></a></h1>
+<p><code>Element.classList</code> is a property that returns a live collection of the classes on an element.</p>
+<p>There are methods to add, remove, replace, toggle and check for the classes on an element;</p>
+<pre class="language-js"><code class="language-js"><span class="token keyword">const</span> element <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">createElement</span><span class="token punctuation">(</span><span class="token string">'div'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+element<span class="token punctuation">.</span><span class="token property-access">classList</span><span class="token punctuation">.</span><span class="token method function property-access">add</span><span class="token punctuation">(</span><span class="token string">'class'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// add a class of 'class'</span>
+element<span class="token punctuation">.</span><span class="token property-access">classList</span><span class="token punctuation">.</span><span class="token method function property-access">add</span><span class="token punctuation">(</span><span class="token string">'another-class'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// add class of 'another-class'</span>
+
+element<span class="token punctuation">.</span><span class="token property-access">classList</span><span class="token punctuation">.</span><span class="token method function property-access">remove</span><span class="token punctuation">(</span><span class="token string">'class'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// remove class of 'class'</span>
+element<span class="token punctuation">.</span><span class="token property-access">classList</span><span class="token punctuation">.</span><span class="token method function property-access">replace</span><span class="token punctuation">(</span><span class="token string">'another-class'</span><span class="token punctuation">,</span> <span class="token string">'new-class'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// replace class of 'another-class' with 'new-class'</span>
+element<span class="token punctuation">.</span><span class="token property-access">classList</span><span class="token punctuation">.</span><span class="token method function property-access">toggle</span><span class="token punctuation">(</span><span class="token string">'class'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// toggle class of 'class'</span>
+element<span class="token punctuation">.</span><span class="token property-access">classList</span><span class="token punctuation">.</span><span class="token method function property-access">contains</span><span class="token punctuation">(</span><span class="token string">'new-class'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// check if element has class of 'new-class'</span>
+
+<span class="token comment">// create a toggle function;</span>
+<span class="token keyword">function</span> <span class="token function">toggleClass</span><span class="token punctuation">(</span><span class="token parameter">element<span class="token punctuation">,</span> className</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword control-flow">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>element <span class="token operator">||</span> <span class="token operator">!</span>className<span class="token punctuation">)</span> <span class="token keyword control-flow">return</span><span class="token punctuation">;</span>
+  element<span class="token punctuation">.</span><span class="token property-access">classList</span><span class="token punctuation">.</span><span class="token method function property-access">toggle</span><span class="token punctuation">(</span>className<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/dendron/notes/gpddgu6chwp3ypqdxhjnaeu">Creating</a></li>
+</ul>

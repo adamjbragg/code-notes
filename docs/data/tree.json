@@ -1,0 +1,252 @@
+{
+  "roots": [
+    {
+      "key": "s7w27plguogpxonc5yd8jt0",
+      "title": "Browsers",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dendron",
+      "children": [
+        {
+          "key": "aoaj7ool190i5x0y7937kks",
+          "title": "Reflow",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron",
+          "children": []
+        },
+        {
+          "key": "w6ipyfgs2maz4z80vak7aac",
+          "title": "Repaint",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "2nopohrdx5y03gyu02uqukq",
+      "title": "CSS",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dendron",
+      "children": []
+    },
+    {
+      "key": "xdw7n7cpyq6rpq3txs26jaw",
+      "title": "JS",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dendron",
+      "children": [
+        {
+          "key": "ximhlgz4foevxhqfitdgwh0",
+          "title": "Array",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron",
+          "children": [
+            {
+              "key": "n9ugaow4wwaz461j4m363u3",
+              "title": "forEach",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            },
+            {
+              "key": "e2qwmi5uchsuc1l16kty82j",
+              "title": "from",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            },
+            {
+              "key": "riypkmhsvq2hmlo1y1nvf1x",
+              "title": "map",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "laxigrr9iipf22of6h4sc06",
+          "title": "Async",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron",
+          "children": []
+        },
+        {
+          "key": "lvsdr3wssb4ps7z3brqx3iy",
+          "title": "DOM",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron",
+          "children": [
+            {
+              "key": "7s6nvh1ynr6yzux6k37yhn9",
+              "title": "classList",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            },
+            {
+              "key": "agrsrmi8nqlf1078ioewaul",
+              "title": "createElement",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            },
+            {
+              "key": "gpddgu6chwp3ypqdxhjnaeu",
+              "title": "Creating",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            },
+            {
+              "key": "aieyv8gd2s4oib4zyfqyt5o",
+              "title": "innerHTML",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            },
+            {
+              "key": "clas8n15ht8loe23r9kg5uv",
+              "title": "innerText",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            },
+            {
+              "key": "pusx7u7k32x2g7sevzjadb9",
+              "title": "insertAdjacentElement",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            },
+            {
+              "key": "3axcgz2ow6da4tla6d21rhv",
+              "title": "nodeList",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            },
+            {
+              "key": "5qcfid200j4oubmr519ikce",
+              "title": "Querying",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            },
+            {
+              "key": "1g0kh7ns1bubof76gbgbmur",
+              "title": "textContent",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "43hzi0qdyv8ifteldo82tvc",
+          "title": "Fetch",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "zkqrc7q1soc8nhdk3op3uit",
+      "title": "React",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dendron",
+      "children": []
+    },
+    {
+      "key": "c1bs7wsjfbhb0zipaywqv1",
+      "title": "Tutorial",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dendron",
+      "children": []
+    },
+    {
+      "key": "osntzogpxqbzpzh57gesb14",
+      "title": "WordPress",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dendron",
+      "children": []
+    }
+  ],
+  "child2parent": {
+    "s7w27plguogpxonc5yd8jt0": null,
+    "aoaj7ool190i5x0y7937kks": "s7w27plguogpxonc5yd8jt0",
+    "w6ipyfgs2maz4z80vak7aac": "s7w27plguogpxonc5yd8jt0",
+    "2nopohrdx5y03gyu02uqukq": null,
+    "xdw7n7cpyq6rpq3txs26jaw": null,
+    "ximhlgz4foevxhqfitdgwh0": "xdw7n7cpyq6rpq3txs26jaw",
+    "n9ugaow4wwaz461j4m363u3": "ximhlgz4foevxhqfitdgwh0",
+    "e2qwmi5uchsuc1l16kty82j": "ximhlgz4foevxhqfitdgwh0",
+    "riypkmhsvq2hmlo1y1nvf1x": "ximhlgz4foevxhqfitdgwh0",
+    "laxigrr9iipf22of6h4sc06": "xdw7n7cpyq6rpq3txs26jaw",
+    "lvsdr3wssb4ps7z3brqx3iy": "xdw7n7cpyq6rpq3txs26jaw",
+    "7s6nvh1ynr6yzux6k37yhn9": "lvsdr3wssb4ps7z3brqx3iy",
+    "agrsrmi8nqlf1078ioewaul": "lvsdr3wssb4ps7z3brqx3iy",
+    "gpddgu6chwp3ypqdxhjnaeu": "lvsdr3wssb4ps7z3brqx3iy",
+    "aieyv8gd2s4oib4zyfqyt5o": "lvsdr3wssb4ps7z3brqx3iy",
+    "clas8n15ht8loe23r9kg5uv": "lvsdr3wssb4ps7z3brqx3iy",
+    "pusx7u7k32x2g7sevzjadb9": "lvsdr3wssb4ps7z3brqx3iy",
+    "3axcgz2ow6da4tla6d21rhv": "lvsdr3wssb4ps7z3brqx3iy",
+    "5qcfid200j4oubmr519ikce": "lvsdr3wssb4ps7z3brqx3iy",
+    "1g0kh7ns1bubof76gbgbmur": "lvsdr3wssb4ps7z3brqx3iy",
+    "43hzi0qdyv8ifteldo82tvc": "xdw7n7cpyq6rpq3txs26jaw",
+    "zkqrc7q1soc8nhdk3op3uit": null,
+    "c1bs7wsjfbhb0zipaywqv1": null,
+    "osntzogpxqbzpzh57gesb14": null
+  },
+  "notesLabelById": {
+    "s7w27plguogpxonc5yd8jt0": "Browsers",
+    "aoaj7ool190i5x0y7937kks": "Reflow",
+    "w6ipyfgs2maz4z80vak7aac": "Repaint",
+    "2nopohrdx5y03gyu02uqukq": "CSS",
+    "xdw7n7cpyq6rpq3txs26jaw": "JS",
+    "ximhlgz4foevxhqfitdgwh0": "Array",
+    "n9ugaow4wwaz461j4m363u3": "forEach",
+    "e2qwmi5uchsuc1l16kty82j": "from",
+    "riypkmhsvq2hmlo1y1nvf1x": "map",
+    "laxigrr9iipf22of6h4sc06": "Async",
+    "lvsdr3wssb4ps7z3brqx3iy": "DOM",
+    "7s6nvh1ynr6yzux6k37yhn9": "classList",
+    "agrsrmi8nqlf1078ioewaul": "createElement",
+    "gpddgu6chwp3ypqdxhjnaeu": "Creating",
+    "aieyv8gd2s4oib4zyfqyt5o": "innerHTML",
+    "clas8n15ht8loe23r9kg5uv": "innerText",
+    "pusx7u7k32x2g7sevzjadb9": "insertAdjacentElement",
+    "3axcgz2ow6da4tla6d21rhv": "nodeList",
+    "5qcfid200j4oubmr519ikce": "Querying",
+    "1g0kh7ns1bubof76gbgbmur": "textContent",
+    "43hzi0qdyv8ifteldo82tvc": "Fetch",
+    "zkqrc7q1soc8nhdk3op3uit": "React",
+    "c1bs7wsjfbhb0zipaywqv1": "Tutorial",
+    "osntzogpxqbzpzh57gesb14": "WordPress"
+  }
+}
