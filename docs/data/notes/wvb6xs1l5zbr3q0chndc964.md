@@ -1,4 +1,2 @@
 
-# Coding Resource
-
-Welcome to my coding resource. I place to help me learn and keep track of core web development concepts.
+Welcome to my coding resource. I place to help me learn and document concepts I need to revisit later.

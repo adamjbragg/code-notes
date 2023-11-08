@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1699418251541,
-      "created": 1699418251541,
+      "updated": 1699476277872,
+      "created": 1699476277872,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -22,9 +22,9 @@
     },
     "wvb6xs1l5zbr3q0chndc964": {
       "id": "wvb6xs1l5zbr3q0chndc964",
-      "title": "Root",
+      "title": "Learning along the way",
       "desc": "",
-      "updated": 1699396032108,
+      "updated": 1699475398118,
       "created": 1699350905420,
       "custom": {
         "nav_order": 0,
@@ -37,18 +37,9 @@
         "selfContained": true,
         "name": "dendron"
       },
-      "contentHash": "4853dc9638a1e1f2614f7a1cd806dca7",
+      "contentHash": "f69a80284aa392c9ff49e4a0a4b1854d",
       "links": [],
-      "anchors": {
-        "coding-resource": {
-          "type": "header",
-          "text": "Coding Resource",
-          "value": "coding-resource",
-          "line": 8,
-          "column": 0,
-          "depth": 1
-        }
-      },
+      "anchors": {},
       "children": [
         "sbee0giyz5py7mp97pslwn0",
         "2nopohrdx5y03gyu02uqukq",
@@ -141,7 +132,7 @@
       "id": "5aczecj4af0rgg03lqz0xa3",
       "title": "headlessUI",
       "desc": "",
-      "updated": 1699417529872,
+      "updated": 1699475597514,
       "created": 1699417426753,
       "custom": {},
       "fname": "react.headlessUI",
@@ -151,8 +142,36 @@
         "selfContained": true,
         "name": "dendron"
       },
-      "contentHash": "47afcc738c85913947b07712446bcb1d",
-      "links": [],
+      "contentHash": "6f8263d9b91f66543804f5809fce7a48",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "react.headlessUI",
+            "id": "5aczecj4af0rgg03lqz0xa3",
+            "vaultName": "dendron"
+          },
+          "value": "tags.todayILearned",
+          "alias": "#todayILearned",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 1,
+              "offset": 298
+            },
+            "end": {
+              "line": 8,
+              "column": 15,
+              "offset": 312
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.todayILearned"
+          }
+        }
+      ],
       "anchors": {
         "multiple--nested-dialogs": {
           "type": "header",
@@ -1203,9 +1222,9 @@
   "domains": [
     {
       "id": "wvb6xs1l5zbr3q0chndc964",
-      "title": "Root",
+      "title": "Learning along the way",
       "desc": "",
-      "updated": 1699396032108,
+      "updated": 1699475398118,
       "created": 1699350905420,
       "custom": {
         "nav_order": 0,
@@ -1218,18 +1237,9 @@
         "selfContained": true,
         "name": "dendron"
       },
-      "contentHash": "4853dc9638a1e1f2614f7a1cd806dca7",
+      "contentHash": "f69a80284aa392c9ff49e4a0a4b1854d",
       "links": [],
-      "anchors": {
-        "coding-resource": {
-          "type": "header",
-          "text": "Coding Resource",
-          "value": "coding-resource",
-          "line": 8,
-          "column": 0,
-          "depth": 1
-        }
-      },
+      "anchors": {},
       "children": [
         "sbee0giyz5py7mp97pslwn0",
         "2nopohrdx5y03gyu02uqukq",
@@ -1239,14 +1249,14 @@
       ],
       "parent": null,
       "data": {},
-      "body": "\n# Coding Resource\n\nWelcome to my coding resource. I place to help me learn and keep track of core web development concepts.\n"
+      "body": "\nWelcome to my coding resource. I place to help me learn and document concepts I need to revisit later.\n"
     }
   ],
   "noteIndex": {
     "id": "wvb6xs1l5zbr3q0chndc964",
-    "title": "Root",
+    "title": "Learning along the way",
     "desc": "",
-    "updated": 1699396032108,
+    "updated": 1699475398118,
     "created": 1699350905420,
     "custom": {
       "nav_order": 0,
@@ -1259,18 +1269,9 @@
       "selfContained": true,
       "name": "dendron"
     },
-    "contentHash": "4853dc9638a1e1f2614f7a1cd806dca7",
+    "contentHash": "f69a80284aa392c9ff49e4a0a4b1854d",
     "links": [],
-    "anchors": {
-      "coding-resource": {
-        "type": "header",
-        "text": "Coding Resource",
-        "value": "coding-resource",
-        "line": 8,
-        "column": 0,
-        "depth": 1
-      }
-    },
+    "anchors": {},
     "children": [
       "sbee0giyz5py7mp97pslwn0",
       "2nopohrdx5y03gyu02uqukq",
@@ -1280,7 +1281,7 @@
     ],
     "parent": null,
     "data": {},
-    "body": "\n# Coding Resource\n\nWelcome to my coding resource. I place to help me learn and keep track of core web development concepts.\n"
+    "body": "\nWelcome to my coding resource. I place to help me learn and document concepts I need to revisit later.\n"
   },
   "vaults": [
     {
