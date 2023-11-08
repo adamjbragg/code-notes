@@ -129,7 +129,7 @@
     "enablePrettyLinks": true,
     "searchMode": "search",
     "siteUrl": "https://adamjbragg.github.io",
-    "assetsPrefix": "/dendron",
+    "assetsPrefix": "/code-notes",
     "siteFaviconPath": "favicon.ico",
     "siteIndex": "root"
   }
